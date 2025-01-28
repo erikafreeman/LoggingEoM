@@ -1,7 +1,9 @@
 # LoggingEoM
 
 Logging Impacts on Stream Molecular Ecology
+
 Project Overview
+
 This repository contains data and analysis for research investigating how logging activities affect dissolved organic matter (DOM) in headwater streams. The study was conducted in northern Ontario, Canada, using a before-after control-impact (BACI) experimental design across four catchments over three years.
 Key Findings
 
