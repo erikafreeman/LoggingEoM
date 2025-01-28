@@ -1,0 +1,114 @@
+Dataset Documentation: HarvestData_STAll_Chem_tmod.csv
+Overview
+This dataset contains chemical and environmental measurements from four headwater catchments in northern Ontario, Canada, collected between 2019-2021 as part of a study investigating logging impacts on stream dissolved organic matter (DOM).
+Dataset Specifications
+
+Format: Comma-separated values (CSV)
+Rows: 59 observations
+Columns: 53 variables
+Time Period: 2019-2021
+Sampling Frequency: Monthly during ice-free seasons
+File Size: [Size to be added] MB
+Missing Data Code: NA
+
+Site Information
+
+Location: Northeast of Lake Superior, Ontario, Canada
+Catchment Size Range: 0.115 to 0.140 km²
+Forest Type: Hardwood-dominated, hemi-boreal
+Treatment Groups:
+
+Control sites (C1, C2): Unlogged
+Treatment sites (H1, H2): Logged in September 2020
+Paired design: H1-C1, H2-C2
+
+
+
+Variable Descriptions
+Identifiers and Temporal Variables
+VariableUnitDescriptionUnnamed: 0.1-Row identifierUnnamed: 0-Secondary row identifierSite-Catchment identifier (H1, H2, C1, C2)date_adjustedYYYY-MM-DDSampling dateorderintegerSample ordert_modintegerModified time index
+Optical Properties
+VariableUnitDescriptionfi-Fluorescence Indexhix-Humification Index; indicates humic substance contentmhix-Modified Humification Indexbix-Biological Indexa254abs/cmAbsorbance at 254nma300abs/cmAbsorbance at 300nmE2_E3-Ratio of absorbance at different wavelengthsS275_295nm⁻¹Spectral slope between 275-295nmS350_400nm⁻¹Spectral slope between 350-400nmSR-Slope ratio
+Carbon and Nutrients
+VariableUnitDescriptionTOC_conc2mg/LTotal Organic Carbon concentrationDOCmg/LDissolved Organic CarbonDICmg/LDissolved Inorganic CarbonNO2.NO3mg/LCombined Nitrite and NitrateNH4mg/LAmmoniumSRPμg/LSoluble Reactive PhosphorusTPμg/LTotal PhosphorusTNmg/LTotal Nitrogen
+Physical Parameters
+VariableUnitDescriptionpH-pH valuecondμS/cmConductivityalkmg/L CaCO₃Alkalinity
+Major Ions
+VariableUnitDescriptionCamg/LCalciumKmg/LPotassiumMgmg/LMagnesiumNamg/LSodiumSO4mg/LSulfateClmg/LChlorideSiO2mg/LSilica
+Trace Metals
+VariableUnitDescriptionAlμg/LAluminumFeμg/LIronMnμg/LManganeseZnμg/LZincCdμg/LCadmiumCuμg/LCopperNiμg/LNickelPbμg/LLead
+Quality Control
+
+All water samples filtered through 0.45 μm glass fiber filters
+Samples for DOM analysis stored at 4°C in dark conditions
+Analytical blanks and standards run every 10 samples
+Duplicate samples analyzed for 10% of measurements
+Detection limits available upon request
+
+Collection Methods
+
+Water Sampling:
+
+500mL grab samples collected monthly
+Samples taken from channel heads of streams
+Filtered on-site or within 24 hours
+Preserved according to analytical requirements
+
+
+Chemical Analysis:
+
+DOM quantified using Shimadzu TOC-L analyzer
+Optical properties measured via fluorescence spectroscopy
+Major ions and metals analyzed at Great Lakes Forestry Centre
+
+
+
+Usage Notes
+
+Time series analysis should account for:
+
+Seasonal variations in stream chemistry
+Ice-free season sampling only
+Treatment effect beginning September 2020
+
+
+Data includes pre-treatment (2019-Sept 2020) and post-treatment (Sept 2020-2021) periods
+Some variables may show high temporal variability due to:
+
+Storm events
+Seasonal changes
+Treatment effects
+
+
+
+Data Processing
+
+Raw data cleaned and formatted in R
+Quality control flags removed for final dataset
+Time standardization applied
+Missing values coded as NA
+
+Access and Permissions
+[To be completed based on project requirements]
+Known Issues or Limitations
+
+Sampling limited to ice-free seasons
+Some parameters show seasonal gaps
+Storm event sampling may be underrepresented
+
+Updates and Versions
+
+Version: 1.0
+Last Updated: [Date]
+Update History: Initial release
+
+Contact
+For questions about this dataset, please contact:
+
+Primary Contact: Erika C Freeman (erika.freem@gmail.com)
+Data Manager: [Name and contact to be added]
+
+References
+Relevant publications using this dataset:
+
+Freeman EC, et al. (2025) Logging disrupts the ecology of molecules in headwater streams. [Journal Information Pending]
