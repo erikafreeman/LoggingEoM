@@ -11,15 +11,6 @@ Logging increased chemical diversity and introduced novel compounds
 Stream DOM composition showed increased similarity to soil DOM post-harvest
 Estimated 6.4% of harvested carbon was lost through increased DOM export
 
-Repository Structure
-Copy├── data/
-│   ├── HarvestData_STAll_Chem_tmod.csv    # Main chemical analysis dataset
-│   ├── environmental/                      # Environmental measurements
-│   └── mass_spec/                         # Mass spectrometry data
-├── analysis/
-│   └── R/                                 # Analysis scripts
-└── figures/                               # Generated figures
-
 Methods Summary
 Study Design
 
