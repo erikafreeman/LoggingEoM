@@ -47,7 +47,6 @@ Temporal correlation structure
 Molecular diversity analysis
 
 
-
 Usage
 This dataset is suitable for:
 
@@ -62,11 +61,9 @@ Principal Investigator: Erika C Freeman
 Email: erika.freem@gmail.com
 Citation
 If you use this data, please cite:
-CopyFreeman EC, Emilson EJS, Webster KL, Dittmar T, Tanentzap AJ (2025) 
-Logging disrupts the ecology of molecules in headwater streams
-[Journal Information Pending]
-License
-[License information to be added]
+Copy Freeman EC, Emilson EJS, Webster KL, Dittmar T, Tanentzap AJ (2025) 
+Logging disrupts the ecology of molecules in headwater streams. PNAS.
+
 Acknowledgments
 
 Natural Resources Canada
