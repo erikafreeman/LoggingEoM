@@ -1,6 +1,6 @@
 # LoggingEoM
 
-Logging Impacts on Stream Molecular Ecology
+Logging Impacts on Stream Molecular Biogeochemsitry
 
 Project Overview
 
